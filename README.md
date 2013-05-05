@@ -2,7 +2,7 @@ octopress-piwik
 ===============
 This settings permits to add piwik support for octopress blog.
 + _config.yml.patch show the two settings you should add to your ``_config.yml``
-+ Copy ``source/_includes/head.html`` into your ``source/_includes`` (please look at your head.html you'll see that there is just an insert ok : ``{% include piwik_analytics.html %}``
++ Copy ``source/_includes/after_footer.html`` into your ``source/_includes`` (please look at your after_footer.html you'll see that there is just an insert of : ``{% include piwik_analytics.html %}``
 + Copy ``source/_includes/piwik_analytics.html`` into your ``source/_includes`` folder
 
 ## piwik_url
