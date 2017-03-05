@@ -1,4 +1,5 @@
 {% if site.piwik_url %}
+{% if site.url != "http://localhost:4000" %}
 <!-- Piwik -->
 <script type="text/javascript">
   var _paq = _paq || [];
@@ -14,4 +15,5 @@
 </script>
 <noscript><p><img src="//{{ site.piwik_url }}/piwik.php?idsite={{ site.piwik_siteid }}" style="border:0;" alt="" /></p></noscript>
 <!-- End Piwik Code -->
+{% endif %}
 {% endif %}
